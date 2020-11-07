@@ -18,6 +18,7 @@
   background-color: #535a51;
   font-size: 16px;
   overflow: hidden;
+  width: 200px;
 }
 .nav__item-link {
   color: #fff;
