@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.nav {
+  margin-left: 20px;
+  width: 200px;
+  background-color: #596275;
+  border-radius: 8px;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.nav__item {
+  display: block;
+  border-top: 2px solid #93a090;
+  margin: 0;
+  padding: 0;
+  background-color: #535a51;
+  font-size: 16px;
+  overflow: hidden;
+}
+.nav__item-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 20px;
+  display: block;
+}
+.nav__submenu {
+  background: #51644c;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s;
+}
+.nav__submenu-link {
+  display: block;
+  padding: 16px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.5s ease-in;
+  border-top: 2px solid #8aa881;
+}
+.nav__submenu-link:hover {
+  background: #4d4d4d;
+}
+.nav__submenu:target {
+  max-height: 15rem;
+}
