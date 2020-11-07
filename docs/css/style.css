@@ -46,3 +46,6 @@
 .nav__submenu:target {
   max-height: 15rem;
 }
+.logo {
+  background-color: red;
+}
