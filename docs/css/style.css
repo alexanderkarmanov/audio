@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #000;
+  background-image: url(../img/bg_5762.jpg);
+  background-size: cover;
+}
 .nav {
-  margin-left: 20px;
   width: 100%;
   background-color: #596275;
   border-radius: 8px;
@@ -19,6 +23,7 @@
   font-size: 16px;
   overflow: hidden;
   width: 100%;
+  text-align: center;
 }
 .nav__item-link {
   color: #fff;
@@ -47,5 +52,7 @@
   max-height: 15rem;
 }
 .logo {
-  background-color: red;
+  background-image: url(../img/logo_small.png);
+  background-repeat: no-repeat;
+  background-position: 30% 10%;
 }
